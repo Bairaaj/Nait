@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\0115b88a067cd73a9f64948f4523c491\bs2_default.bin.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\c957bfdd4f9482c9cd3330133fa5c3bc\bs2_default_bin.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\chels\.pico-sdk\sdk\2.1.0\src\rp2040\boot_stage2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\pico-sdk\src\rp2040\boot_stage2\CMakeFiles\bs2_default_bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4A639325-65FA-3B2F-8DBD-4EDBB4A0B202}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

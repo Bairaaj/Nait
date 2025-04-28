@@ -1,0 +1,3 @@
+Data:1 < ADDXPR ONLY_ADD_IF_NEW "main.c::xcount"
+Data:1 < ADDXPR ONLY_ADD_IF_NEW "main.c::address"
+Data:1 < ADDXPR ONLY_ADD_IF_NEW "main.c::updowncount"

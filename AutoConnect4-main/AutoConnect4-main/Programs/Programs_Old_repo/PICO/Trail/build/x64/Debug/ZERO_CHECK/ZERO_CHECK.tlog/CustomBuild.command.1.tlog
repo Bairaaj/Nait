@@ -1,0 +1,10 @@
+^C:\USERS\CHELS\ONEDRIVE - NAIT\TERM 4\CMPE-2965 (AJ)\AUTOMATICCONNECT4.0\PROGRAMS\TRAIL\BUILD\CMAKEFILES\187394F124B4171AE3975F12CE74721A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic" "-BC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/Trial_Idle_Connect4_Logic.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

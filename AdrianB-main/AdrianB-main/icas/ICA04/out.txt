@@ -1,0 +1,24 @@
+Population information as of : 2025-03-07 13:00:50.124982
+Range (0, 600000) : Wyoming
+Range (600000, 1200000) : Alaska, Delaware, District of Columbia, Montana, North Dakota, Rhode Island, South Dakota, Vermont
+Range (1200000, 1800000) : Hawaii, Maine, New Hampshire, West Virginia
+Range (1800000, 2400000) : Idaho, Nebraska, New Mexico
+Range (2400000, 3000000) : Kansas, Mississippi
+Range (3000000, 3600000) : Arkansas, Iowa, Nevada, Puerto Rico, Utah
+Range (3600000, 4200000) : Connecticut, Oklahoma
+Range (4200000, 4800000) : Kentucky, Louisiana, Oregon
+Range (4800000, 5400000) : Alabama, South Carolina
+Range (5400000, 6000000) : Colorado, Minnesota, Wisconsin
+Range (6000000, 6600000) : Maryland, Missouri
+Range (6600000, 7200000) : Arizona, Indiana, Massachusetts, Tennessee
+Range (7200000, 7800000) : Washington
+Range (8400000, 9000000) : Virginia
+Range (9000000, 9600000) : New Jersey
+Range (9600000, 10200000) : Michigan
+Range (10200000, 10800000) : Georgia, North Carolina
+Range (11400000, 12000000) : Ohio
+Range (12600000, 13200000) : Illinois, Pennsylvania
+Range (19800000, 20400000) : New York
+Range (21600000, 22200000) : Florida
+Range (28800000, 29400000) : Texas
+Range (39000000, 39600000) : California

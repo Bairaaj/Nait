@@ -1,0 +1,21 @@
+body
+{
+    text-align: center;
+}
+.MainGrid
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.Container
+{
+    grid-column: 2/3;
+    border: 1px solid black;
+}
+.Containerinner
+{
+    grid-column: 2/3;
+    border: 1px solid black;
+    display: grid;
+    grid-column: 1fr 1fr;
+}

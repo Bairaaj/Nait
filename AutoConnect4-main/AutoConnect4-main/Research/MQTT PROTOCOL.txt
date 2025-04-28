@@ -1,0 +1,18 @@
+https://www.emqx.com/en/blog/connect-to-mqtt-broker-with-websocket#why-use-mqtt-over-websocket
+https://www.instructables.com/Connect-Raspberry-Pi-Pico-W-to-NodeJS-Applicatio
+
+
+
+
+
+using umqtt.simple micro python :
+https://github.com/micropython/micropython-lib/blob/master/micropython/umqtt.simple/umqtt/simple.py
+
+exmples:
+https://github.com/micropython/micropython-lib/tree/master/micropython/umqtt.simple
+
+
+
+if integrating with the c/c++
+https://github.com/LiamBindle/MQTT-C/tree/master/examples
+https://github.com/eclipse-paho/paho.mqtt.c

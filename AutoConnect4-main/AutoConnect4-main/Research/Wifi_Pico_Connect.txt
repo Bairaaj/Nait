@@ -1,0 +1,11 @@
+https://datasheets.raspberrypi.com/picow/connecting-to-the-internet-with-pico-w.pdf
+https://projects.raspberrypi.org/en/projects/get-started-pico-w/2
+
+
+
+
+
+
+C
+
+https://forums.raspberrypi.com/viewtopic.php?t=377153

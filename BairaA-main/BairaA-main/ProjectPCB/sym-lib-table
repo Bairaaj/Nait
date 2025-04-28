@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HeaderPins")(type "KiCad")(uri "${KIPRJMOD}/HeaderPins.kicad_sym")(options "")(descr ""))
+  (lib (name "PinConnector10Pin")(type "KiCad")(uri "${KIPRJMOD}/PinConnector10Pin.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-002B")(type "KiCad")(uri "${KIPRJMOD}/PJ_002B/PJ-002B.kicad_sym")(options "")(descr ""))
+)

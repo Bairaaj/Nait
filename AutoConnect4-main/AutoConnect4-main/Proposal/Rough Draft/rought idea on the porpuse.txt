@@ -1,0 +1,13 @@
+My thinking
+
+The purpose of the Project is to create a real life decision make to be able to play connect four with the computer
+
+plus
+
+having 2 player play with each other. Having a hardware as a Output 
+
+
+
+using copilot ai
+
+You're creating a Connect Four game where a decision-making system (not necessarily AI) determines moves, and the hardware involves motors that physically drop pieces onto the board. Additionally, it will support both computer and two-player modes. 

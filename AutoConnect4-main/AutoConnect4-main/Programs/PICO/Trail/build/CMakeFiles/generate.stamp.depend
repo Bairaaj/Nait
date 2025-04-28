@@ -1,0 +1,42 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeASMInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/GNU-ASM.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/MSVC.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FetchContent.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+C:/Users/chels/.pico-sdk/cmake/pico-vscode.cmake
+C:/Users/chels/.pico-sdk/picotool/2.1.0/picotool/picotoolConfig.cmake
+C:/Users/chels/.pico-sdk/picotool/2.1.0/picotool/picotoolConfigVersion.cmake
+C:/Users/chels/.pico-sdk/picotool/2.1.0/picotool/picotoolTargets-release.cmake
+C:/Users/chels/.pico-sdk/picotool/2.1.0/picotool/picotoolTargets.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/cmake/Platform/PICO.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/cmake/generic_board.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/cmake/pico_pre_load_platform.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/cmake/pico_pre_load_toolchain.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/cmake/pico_utils.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/cmake/preload/platforms/rp2040.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/cmake/preload/toolchains/util/find_compiler.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/cmake/preload/toolchains/util/set_flags.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/pico_sdk_init.cmake
+C:/Users/chels/.pico-sdk/sdk/2.1.0/pico_sdk_version.cmake
+C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic/CMakeLists.txt
+C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic/pico_sdk_import.cmake
+C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/CMakeFiles/3.29.5-msvc4/CMakeASMCompiler.cmake
+C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/CMakeFiles/3.29.5-msvc4/CMakeCCompiler.cmake
+C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/CMakeFiles/3.29.5-msvc4/CMakeCXXCompiler.cmake
+C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/CMakeFiles/3.29.5-msvc4/CMakeSystem.cmake

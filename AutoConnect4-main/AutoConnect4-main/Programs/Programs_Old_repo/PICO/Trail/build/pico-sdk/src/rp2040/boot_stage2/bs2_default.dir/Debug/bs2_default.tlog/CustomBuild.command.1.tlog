@@ -1,0 +1,10 @@
+^C:\USERS\CHELS\.PICO-SDK\SDK\2.1.0\SRC\RP2040\BOOT_STAGE2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic" "-BC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build" --check-stamp-file "C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

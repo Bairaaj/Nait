@@ -1,0 +1,20 @@
+in the local mosquittto file -> mosquito.config ->
+listener 1883 0.0.0.0
+allow_anonymous true
+
+add that then force all mosquito server to stop
+
+then go to the mosquitto file and .\mosquito.exe -> run this
+
+
+then we are good
+
+
+
+
+
+if not working then check for the default mqtt port -> netstat -a -n -o | Select-String "1883"
+
+then if u get anything the last value of the line is PID we have to force close that -> Stop-Process -Id <PID> -Force 
+
+then repeat the first process then its good

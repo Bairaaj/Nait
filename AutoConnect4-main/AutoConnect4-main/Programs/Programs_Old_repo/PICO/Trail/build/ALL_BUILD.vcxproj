@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5CA47494-BB26-36AF-90EE-089EE8FABF0A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\Logic Building\Trial_Idle_Connect4_Logic\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic" "-BC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build" --check-stamp-file "C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\GNU-ASM.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\GNU.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\chels\.pico-sdk\cmake\pico-vscode.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolConfig.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolConfigVersion.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolTargets-release.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolTargets.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\Platform\PICO.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\generic_board.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_pre_load_platform.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_pre_load_toolchain.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_utils.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\platforms\rp2040.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\pico_arm_cortex_m0plus_gcc.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\find_compiler.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\pico_arm_gcc_common.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\set_flags.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\pico_sdk_init.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\pico_sdk_version.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\Logic Building\Trial_Idle_Connect4_Logic\pico_sdk_import.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeASMCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic" "-BC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build" --check-stamp-file "C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\GNU-ASM.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\GNU.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\chels\.pico-sdk\cmake\pico-vscode.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolConfig.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolConfigVersion.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolTargets-release.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolTargets.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\Platform\PICO.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\generic_board.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_pre_load_platform.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_pre_load_toolchain.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_utils.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\platforms\rp2040.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\pico_arm_cortex_m0plus_gcc.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\find_compiler.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\pico_arm_gcc_common.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\set_flags.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\pico_sdk_init.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\pico_sdk_version.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\Logic Building\Trial_Idle_Connect4_Logic\pico_sdk_import.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeASMCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic" "-BC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build" --check-stamp-file "C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\GNU-ASM.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\GNU.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\chels\.pico-sdk\cmake\pico-vscode.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolConfig.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolConfigVersion.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolTargets-release.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolTargets.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\Platform\PICO.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\generic_board.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_pre_load_platform.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_pre_load_toolchain.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_utils.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\platforms\rp2040.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\pico_arm_cortex_m0plus_gcc.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\find_compiler.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\pico_arm_gcc_common.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\set_flags.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\pico_sdk_init.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\pico_sdk_version.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\Logic Building\Trial_Idle_Connect4_Logic\pico_sdk_import.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeASMCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/Logic Building/Trial_Idle_Connect4_Logic" "-BC:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build" --check-stamp-file "C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\GNU-ASM.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\GNU.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Users\chels\.pico-sdk\cmake\pico-vscode.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolConfig.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolConfigVersion.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolTargets-release.cmake;C:\Users\chels\.pico-sdk\picotool\2.1.0\picotool\picotoolTargets.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\Platform\PICO.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\generic_board.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_pre_load_platform.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_pre_load_toolchain.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\pico_utils.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\platforms\rp2040.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\pico_arm_cortex_m0plus_gcc.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\find_compiler.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\pico_arm_gcc_common.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\cmake\preload\toolchains\util\set_flags.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\pico_sdk_init.cmake;C:\Users\chels\.pico-sdk\sdk\2.1.0\pico_sdk_version.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\Logic Building\Trial_Idle_Connect4_Logic\pico_sdk_import.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeASMCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake;C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\ZERO_CHECK.vcxproj">
+      <Project>{44D9A003-D10D-3433-8E9D-0B7BBB0F3342}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\Trial_Idle_Connect4_Logic.vcxproj">
+      <Project>{7CEA6BA4-26A3-3E8E-95BC-11CF11FF0E37}</Project>
+      <Name>Trial_Idle_Connect4_Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\pico-sdk\src\rp2040\boot_stage2\bs2_default.vcxproj">
+      <Project>{90832F26-52EB-3599-922A-957C8E6BE87C}</Project>
+      <Name>bs2_default</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chels\OneDrive - NAIT\term 4\CMPE-2965 (AJ)\AutomaticConnect4.0\Programs\Trail\build\pico-sdk\src\rp2040\boot_stage2\bs2_default_library.vcxproj">
+      <Project>{F52251B4-CA31-336C-94AC-47A9BCFB8DC1}</Project>
+      <Name>bs2_default_library</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

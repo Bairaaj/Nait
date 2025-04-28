@@ -1,0 +1,3 @@
+Data:1 < ADDXPR ONLY_ADD_IF_NEW "main.c::binarynumber"
+Data:1 < ADDXPR ONLY_ADD_IF_NEW "main.c::binarybits[11]"
+Data:1 < ADDXPR ONLY_ADD_IF_NEW "main.c::upState"

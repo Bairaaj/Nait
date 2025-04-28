@@ -1,0 +1,87 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"pico_generate_pio_header"
+		],
+		"files" : 
+		[
+			"C:/Users/chels/.pico-sdk/sdk/2.1.0/tools/CMakeLists.txt",
+			"C:/Users/chels/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cyw43_driver/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h::@c2fb4f534018e64680d5",
+	"name" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h",
+	"paths" : 
+	{
+		"build" : "pico-sdk/src/rp2_common/pico_cyw43_driver",
+		"source" : "C:/Users/chels/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cyw43_driver"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/CMakeFiles/49900c0ec33b1832039c295e6fd4693e/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/chels/OneDrive - NAIT/term 4/CMPE-2965 (AJ)/AutomaticConnect4.0/Programs/Trail/build/CMakeFiles/67b4c0feb2c42fca2c02d9a2eb4a6649/cyw43_bus_pio_spi.pio.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

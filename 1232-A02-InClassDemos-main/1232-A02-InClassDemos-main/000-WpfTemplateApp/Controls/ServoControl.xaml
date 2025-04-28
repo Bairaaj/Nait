@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="WpfTemplate.Controls.ServoControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfTemplate.Controls"
+             mc:Ignorable="d" 
+             Width="{Binding Path=ActualWidth, 
+             RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=UIElement}}"  
+             
+             Height="{Binding Path=ActualWidth, 
+             RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=UIElement}}" 
+             Background="#FF91A3B6"
+             >
+    <Grid>
+        <StackPanel HorizontalAlignment="Center">
+            <Label FontSize="18" FontWeight="Bold">Servo Control</Label>
+            <ScrollBar Orientation="Horizontal"
+                                   ValueChanged="AngleChanged"  
+                                   LostMouseCapture="AngleSet"
+                                   Maximum="85"  
+                                   Minimum="15" 
+                                   SmallChange="1" 
+                                   MinHeight="25"
+                                   MinWidth="100"
+                                   />
+            <Label FontSize="18" FontWeight="Bold" HorizontalAlignment="Center">Duty Cycle</Label>
+            <TextBlock x:Name="DutyXAML" FontSize="18" HorizontalAlignment="Center" Text="" />
+        </StackPanel>   
+    </Grid>
+</UserControl>

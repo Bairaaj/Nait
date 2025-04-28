@@ -1,0 +1,4 @@
+https://youtu.be/9Fio0BlMsVM?si=Xeif8s51ZdDtJuA9
+
+
+this video helped me get the interrupt for the pico W working

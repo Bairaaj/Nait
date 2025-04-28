@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "Programs_Old_repo/MAIN/Connect_4"
+		}
+	],
+	"settings": {
+		"python.languageServer": "Pylance"
+	}
+}

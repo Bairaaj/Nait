@@ -1,0 +1,58 @@
+body
+{
+    text-align: center;
+}
+.MainGrid
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.Container
+{
+    grid-column: 2/3;
+    border: 1px solid black;
+    padding: 5%;
+}
+.Containerinner
+{
+    grid-column: 2/3;
+    border: 1px solid black;
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+table,th,td
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
+    border-collapse: collapse;
+    background-color:  blue;
+    
+}
+.Yellow
+{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.Red
+{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.Grey
+{
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid 2px black;
+    margin: 0 auto;
+}

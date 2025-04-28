@@ -1,0 +1,20 @@
+https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
+ -> Getting started with pico (C)
+
+
+https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf#page=335&zoom=100,153,731
+ -> high level apis
+4.2.5 pico_i2c_slave
+
+
+https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf
+-> more information on the SDK of the pico W
+
+
+
+
+for using c with visual studio code 
+	-> youtuber name by Digikey
+	-> website digikey - Maker.io
+	
+https://www.digikey.ca/en/maker/projects/raspberry-pi-pico-and-rp2040-cc-part-1-blink-and-vs-code/7102fb8bca95452e9df6150f39ae8422

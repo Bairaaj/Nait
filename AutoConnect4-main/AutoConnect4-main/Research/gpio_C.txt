@@ -1,0 +1,11 @@
+4.1.10. hardware_gpio -> topic on the SDK;
+
+hardware_gpio:
+	
+	-> 4.1.10.7.13. gpio_get
+	   	static bool gpio_get (uint gpio) [inline], [static]
+		Get state of a single specified GPIO.
+		Parameters
+		gpio GPIO number
+		Returns
+		Current state of the GPIO. 0 for low, non-zero for high
